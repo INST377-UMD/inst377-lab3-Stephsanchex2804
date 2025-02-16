@@ -1,0 +1,97 @@
+body {
+    background-color: rosybrown;
+  }
+  
+  #bar {
+    text-align: center;
+    color: white;
+    background-color: maroon;
+    padding: 5px;
+    font-family: cursive;
+    clear: both;
+  }
+  
+  #main-nav {
+    background-color: mediumvioletred;
+    text-align: left;
+  }
+  #main-nav li a {
+    text-decoration: none;  
+    color: inherit;        
+}
+
+#main-nav li a:hover {
+    color: inherit;        
+}
+  
+  #main-nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #main-nav li:hover {
+    background-color: maroon;
+    color: white;
+  }
+  
+  #main-nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  
+  #main-nav li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: crimson;
+    float: left;
+    padding: 0;
+  }
+  
+  #main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .content-area {
+    width: 70%;
+    float: left;
+    margin: 0;
+  }
+  #contact:hover {
+    background-color: aquamarine; 
+  }
+  
+  .content-box {
+    background-color: plum;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+  }
+  
+  #contact {
+    text-align: left;
+    background-color:pink;
+    float: right;
+    width: 25%;
+    margin-right: 10px;
+    border: 2px solid black;
+  }
+  
+  .main-container {
+      border: 2px solid black;
+      width: 100%;
+      height: 50%;
+      margin-bottom: 5px;
+  }
+
+  #firstName {
+    width: 150px;
+    transition: width 0.3s ease-in-out;
+}
+
+#firstName:focus {
+    width: 250px;
+}
